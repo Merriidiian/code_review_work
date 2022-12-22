@@ -13,5 +13,7 @@ public class Calculator {
     }
     public int solver(int a, int b){
         return times(add(a,b),add(a,b));
+        return add(times(a, a),add( 2*times(a,b), times(b,b)) ;
+
     }
 }
